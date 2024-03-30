@@ -32,8 +32,8 @@ html .sakana-box{
 }
 .card {
     display: inline-block;
-    width: 23%;   
-    height: 23%;
+    width: 480px;   
+    height: 125px;
     margin: 10px; 
     }  
 .card img { 
