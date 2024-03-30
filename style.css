@@ -4,15 +4,15 @@ h1{
     font-size: 60px;
     font-family:Verdana, sans-serif;
     color: #eeeeee;
-    text-shadow: 3px 5px 5px #656B79; 
+    text-shadow: 3px 5px 5px #47494d; 
 }
 body {
     background-image: url(img/bg.jpeg);
     background-position: center center;
     background-repeat: no-repeat;
-    background-attachment : fixed;
-    background-size : cover;
-    background-color : #515151;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
 }
 a{
     text-decoration: none;
@@ -39,8 +39,5 @@ html .sakana-box{
 .card img { 
     width: 100%;
     height:max-content;
-    border-radius: 50px;
+    border-radius: 70px;
     } 
-.zoom{
-    transform: scale(1.5); /* （150% 缩放 - 注意：如果缩放太大，它会超出视口） */
-    }
