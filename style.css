@@ -40,3 +40,8 @@ html .sakana-box{
     height:max-content;
     border-radius: 70px;
 } 
+.timepoint
+{
+    font-size: 20px;
+    text-align: center;
+}
