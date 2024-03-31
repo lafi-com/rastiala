@@ -17,7 +17,6 @@ body {
 a{
     text-decoration: none;
 }
-
 .link img:hover {
     opacity: 0.6;
 }
@@ -35,9 +34,9 @@ html .sakana-box{
     width: 480px;   
     height: 125px;
     margin: 10px; 
-    }  
+}  
 .card img { 
     width: 100%;
     height:max-content;
     border-radius: 70px;
-    } 
+} 
