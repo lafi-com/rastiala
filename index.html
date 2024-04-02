@@ -21,49 +21,34 @@
         </p>
     </head>
 
-    
     <body>
-    <!--千束泷奈-->
-    <div class="sakana-box"></div>
-    <script src="https://cdn.jsdelivr.net/npm/sakana@1.0.8"></script>
-    <script>
-        Sakana.setMute(true);
-        Sakana.init({
-          el:         '.sakana-box',
-          scale:      .5,
-          canSwitchCharacter: true,
-          r:          0,
-          y:          0,
-        });
-    </script>
-    <p class="touxiang">
-        <a href="https://rastiala.vercel.app"><img src="img/mikusday.png"></a>
-    </p>
-    <h1>
-        拉丝提亚拉
-    </h1>
-    <p class="jieshao">
-        只是一个没人看的小站
-    <p style="text-align:center;">
-        <a class="card" href="novelshome.html" target="_blank">
-            <img src="img/novel.svg" alt="Novels">
-        <a class="card" href="https://lafiblog.vercel.app" target="_blank">
-            <img src="img/blog.svg" alt="Blog">
-        </a>
-    </p>
-    <p class="timepoint">
-    <i class="fa fa-cog fa-spin fa-1x fa-fw"></i><span>自建立本站已运行<span id="days"
-        style="font-weight:800; color:#39c5bb">0</span>天</span>
-    <script>
-        let s1 = '2023-10-20';
-        s1 = new Date(s1.replace(/-/g, "/"));
-        s2 = new Date();
-        let days = s2.getTime() - s1.getTime();
-        let number_of_days = parseInt(days / (1000 * 60 * 60 * 24));
-        document.getElementById('days').innerHTML = number_of_days;
-    </script>
-    </p>
+        <div class="maincard">
+            <p class="touxiang">
+                <a href="https://rastiala.vercel.app"><img src="img/mikusday.png"></a>
+            </p>
+            <h1>
+                拉丝提亚拉
+            </h1>
+            <p style="text-align:center;">
+                <a class="card" href="#" target="_blank">
+                    <img src="img/novel.svg" alt="Novels">
+                <a class="card" href="https://lafiblog.vercel.app" target="_blank">
+                    <img src="img/blog.svg" alt="Blog">
+                <a class="card" href="https://t.me/+2VBAg3TJPLowOGI1" target="_blank">
+                    <img src="img/telegram.svg" alt="telegram">
+                </a>
+            </p>
+            <p class="timepoint">
+                <i class="fa fa-cog fa-spin fa-1x fa-fw"></i><span>自建立本站已运行<span id="days"
+                    style="font-weight:800; color:rgb(14, 151, 144)">0</span>天</span>
+                <script>
+                    let s1 = '2023-10-11';
+                    s1 = new Date(s1.replace(/-/g, "/"));
+                    s2 = new Date();
+                    let days = s2.getTime() - s1.getTime();
+                    let number_of_days = parseInt(days / (1000 * 60 * 60 * 24));
+                    document.getElementById('days').innerHTML = number_of_days;
+                </script>
+            </p>
+        </div>
     </body>
-
-</html>
-<!--这……这都被你发现啦！我才没有开心呢！（撅嘴）-->
