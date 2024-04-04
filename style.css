@@ -13,7 +13,7 @@
     backdrop-filter: blur(50px);
 }
 body {
-    background-image: url(img/bg.jpeg);
+    background-image: url(img/bg.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
