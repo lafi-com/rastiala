@@ -9,7 +9,7 @@
 	bottom: 0;
 	margin: auto;
     border-radius: 30px;
-    border: 3px solid rgb(14, 151, 144);
+    border: 2px solid rgb(113, 113, 113);
     backdrop-filter: blur(50px);
 }
 body {
