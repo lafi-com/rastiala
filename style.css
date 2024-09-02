@@ -1,58 +1,11 @@
+.word
+{
+    text-align: center;
+}
 
-.maincard {
-    width: 400px;
-	height: 700px;
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	margin: auto;
-    border-radius: 30px;
-    border: 2px solid rgb(113, 113, 113);
-    backdrop-filter: blur(50px);
-}
-body {
-    background-image: url(img/bg.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-color: #464646;
-}
-.touxiang {
+.name
+{
     text-align: center;
-    position:relative;
-    top: 40px;
-}
-.touxiang img {
-    width: 180px;   
-    height: 180px;
-}
-h1{
-    position:relative;
-    top: 20px;
-    text-align: center;
-    font-size: 40px;
+    font-size: 60px;
     font-family:Verdana, sans-serif;
-    color: #eeeeee;
-    text-shadow: 3px 5px 5px #47494d; 
-}
-.card {
-    display: inline-block;
-    position:relative;
-    top: 40px;
-    width: 50px;   
-    height: 50px;
-    margin: 10px; 
-}  
-.card img { 
-    width: 100%;
-    height:max-content;
-} 
-.timepoint {
-    position: relative;
-    top: 260px;
-    font-size: 20px;
-    text-align: center;
 }
